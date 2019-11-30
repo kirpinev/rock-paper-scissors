@@ -1,0 +1,6 @@
+@import url("./__title/header__title.css");
+
+.header {
+  background-color: white;
+  padding: 20px;
+}

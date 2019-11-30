@@ -1,0 +1,14 @@
+@import url("./__badge/score__badge.css");
+
+.score {
+  position: relative;
+  margin: 0 0 20px 0;
+  border: 3px solid white;
+  width: 200px;
+  color: white;
+  font-size: 46px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: Asap, sans-serif;
+}

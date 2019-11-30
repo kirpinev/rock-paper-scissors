@@ -1,0 +1,9 @@
+@import url("./_type/_computer/score__badge_type_computer.css");
+@import url("./_type/_user/score__badge_type_user.css");
+
+.score__badge {
+  background-color: #e2584d;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+}

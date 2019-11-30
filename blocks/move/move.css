@@ -1,0 +1,6 @@
+@import url("./__message/move__message.css");
+
+.move {
+    text-align: center;
+    margin-top: 45px;
+}

@@ -1,0 +1,5 @@
+@import url("./__item/choices__item.css");
+.choices {
+    display: flex;
+    justify-content: center;
+}
