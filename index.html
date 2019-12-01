@@ -20,8 +20,8 @@
         <section class="score">
           <p class="score__badge score__badge_type_user">user</p>
           <p class="score__badge score__badge_type_computer">comp</p>
-          <span id="user-score">0</span><span>:</span
-          ><span id="computer-score">0</span>
+          <span class="user-score">0</span><span>:</span
+          ><span class="computer-score">0</span>
         </section>
 
         <section class="result">
@@ -29,14 +29,14 @@
         </section>
 
         <section class="choices">
-          <div class="choices__item" id="rock">
-            <img src="images/rock.png" alt="" />
+          <div class="choices__item choices__item_type_default">
+            <img src="images/rock.png" alt="" class="rock" />
           </div>
-          <div class="choices__item" id="paper">
-            <img src="images/paper.png" alt="" />
+          <div class="choices__item choices__item_type_default">
+            <img src="images/paper.png" alt="" class="paper" />
           </div>
-          <div class="choices__item" id="scissors">
-            <img src="images/scissors.png" alt="" />
+          <div class="choices__item choices__item_type_default">
+            <img src="images/scissors.png" alt="" class="scissors" />
           </div>
         </section>
 
@@ -45,10 +45,14 @@
         </section>
       </main>
       <footer class="footer">
-        <a class="footer__copyright" href="https://github.com/kirpinev" target="_blank"
+        <a
+          class="footer__copyright"
+          href="https://github.com/kirpinev"
+          target="_blank"
           >Igor Kirpinev</a
         >
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
